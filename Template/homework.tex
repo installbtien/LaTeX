@@ -1,0 +1,54 @@
+\documentclass{homework}
+
+\course{Fluid Mechanics and Operations}{2}
+
+\begin{document}
+
+\section{MSH Problem 2.2}
+
+\textit{\underline{Solution:}}
+
+$dP + g\rho dZ = 0$, \quad $\rho = \displaystyle \frac{PM}{RT}$, \quad $T = 288-0.005Z$
+\vspace{1.2ex}
+
+$\Rightarrow dP + \displaystyle \frac{gPM}{R(288-0.005Z)} dZ = 0 \Rightarrow
+\int \frac{1}{P} dP = \int -\frac{gM}{R(288-0.005Z)} dZ$
+\vspace{1.2ex}
+
+$\Rightarrow \ln \displaystyle \frac{P_b}{P_a} = -\frac{gM}{R} \frac{-1}{0.005} \ln\left\lvert\frac{288-0.005Z}{288}\right\rvert$
+\vspace{1.2ex}
+
+$\Rightarrow \ln \displaystyle \frac{1}{2} = \frac{9.8 \cdot 28.8 \cdot 10^{-3}}{8.3145} \frac{1}{0.005} \ln\left\lvert\frac{288-0.005Z}{288}\right\rvert$
+\vspace{1.2ex}
+
+$\Rightarrow Z = 5591$m
+
+\section{MSH Problem 2.7}
+
+\textit{\underline{Solution:}}
+
+$r_2 = \displaystyle \frac{0.150}{2} = 0.075$m, \quad $r_B = r_1 = 0.04$m
+\vspace{1.2ex}
+
+$V_A = V_B \Rightarrow \pi(r_2^2 - r_i^2) = \pi (r_i^2 - r_B^2)\Rightarrow r_i = 0.060$m
+\vspace{1.2ex}
+
+$\rho_B(r_i^2-r_B^2) = \rho_A(r_i^2-r_A^2) \Rightarrow \displaystyle \frac{\rho_B}{\rho_A}(r_i^2 - r_B^2) = r_i^2 - r_A^2$
+
+\begin{displaymath}
+	\Rightarrow r_A = \sqrt{r_i^2 - \frac{\rho_B}{\rho_A} (r_i^2 - r_B^2)} = \sqrt{0.060^2 - \frac{1020}{1109} (0.060^2 - 0.04^2)} = 0.042 m
+\end{displaymath}
+
+\section{}
+
+\textit{\underline{Solution:}}
+
+$P_g = -1.7psi + 62.42\displaystyle \frac{lb}{ft^3} \cdot 1.6 \cdot 1.5 ft \frac{ft^2}{144in^2} = -0.66psi$
+\vspace{1.2ex}
+
+$-0.66psi + 62.42 \cdot SG_B \cdot 1.25 \cdot \displaystyle\frac{1}{144} = 0$
+\vspace{1.2ex}
+
+$\Rightarrow SG_B=1.22$
+
+\end{document}
